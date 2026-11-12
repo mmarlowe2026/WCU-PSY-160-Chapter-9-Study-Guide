@@ -1,0 +1,2911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Chapter 9 developmental psychology study guide with comparison tables, flashcards, and original practice questions.">
+<title>Chapter 9: Development Across the Lifespan</title>
+
+<style>
+:root{
+  --ink:#193b3b;
+  --green:#17685b;
+  --light:#eaf4ef;
+  --border:#cadbd3;
+  --background:#f5f6f1;
+}
+
+*{box-sizing:border-box}
+
+html{
+  scroll-behavior:smooth;
+  scroll-padding-top:20px;
+}
+
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:17px;
+  line-height:1.65;
+  color:var(--ink);
+  background:var(--background);
+}
+
+a{color:var(--green)}
+
+header{
+  background:#193f3b;
+  color:white;
+  padding:45px 24px;
+}
+
+header>div{
+  max-width:1100px;
+  margin:auto;
+}
+
+h1{
+  font-size:clamp(32px,5vw,48px);
+  line-height:1.15;
+  margin:12px 0;
+}
+
+header p{
+  max-width:750px;
+  color:#e1eee7;
+}
+
+.eyebrow{
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-size:13px;
+}
+
+.layout{
+  max-width:1200px;
+  margin:30px auto;
+  padding:0 20px;
+  display:grid;
+  grid-template-columns:230px minmax(0,1fr);
+  gap:28px;
+}
+
+aside{
+  position:sticky;
+  top:20px;
+  align-self:start;
+  max-height:92vh;
+  overflow:auto;
+}
+
+nav a{
+  display:block;
+  padding:7px 10px;
+  color:var(--green);
+  text-decoration:none;
+  border-radius:6px;
+  font-size:14px;
+}
+
+nav a:hover{background:var(--light)}
+
+main{min-width:0}
+
+section{
+  background:white;
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:28px;
+  margin-bottom:24px;
+}
+
+h2{
+  font-size:26px;
+  line-height:1.25;
+  margin-top:0;
+}
+
+h3{
+  font-size:20px;
+  margin-top:25px;
+}
+
+.callout{
+  background:var(--light);
+  border-left:5px solid var(--green);
+  padding:16px 20px;
+  border-radius:6px;
+  margin:20px 0;
+}
+
+.callout.warning{
+  background:#f2f6ed;
+  border-left-color:#687b42;
+}
+
+.table-wrap{overflow-x:auto}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:15px;
+  margin:18px 0;
+}
+
+th,td{
+  border-bottom:1px solid var(--border);
+  text-align:left;
+  vertical-align:top;
+  padding:12px;
+}
+
+th{background:var(--light)}
+tr:nth-child(even){background:#f8faf8}
+
+button,select{
+  font:inherit;
+  padding:10px 15px;
+  border:1px solid #8cac9c;
+  border-radius:8px;
+  color:var(--ink);
+  background:white;
+}
+
+button{cursor:pointer}
+
+button.primary{
+  background:var(--green);
+  color:white;
+}
+
+button:hover{filter:brightness(.95)}
+
+button:disabled{
+  opacity:.5;
+  cursor:default;
+}
+
+.tools{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.small{
+  font-size:14px;
+  color:#536b64;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+
+details{
+  border:1px solid var(--border);
+  border-radius:8px;
+  padding:14px;
+}
+
+section>details{margin:14px 0}
+
+summary{
+  font-weight:bold;
+  cursor:pointer;
+}
+
+fieldset{
+  margin:24px 0;
+  padding:18px;
+  border:1px solid var(--border);
+  border-radius:10px;
+  min-width:0;
+}
+
+legend{
+  font-weight:bold;
+  max-width:100%;
+  padding:0 7px;
+}
+
+.option{
+  display:flex;
+  gap:12px;
+  align-items:baseline;
+  background:#f4f7f3;
+  padding:10px;
+  margin:7px 0;
+  border-radius:7px;
+  cursor:pointer;
+}
+
+.option input{flex:none}
+
+.correct-choice{
+  outline:2px solid var(--green);
+}
+
+.incorrect-choice{
+  outline:2px solid #aa402a;
+}
+
+.feedback{
+  background:var(--light);
+  border-left:4px solid var(--green);
+  padding:12px;
+  margin-top:15px;
+}
+
+.feedback.incorrect{
+  background:#fff0e8;
+  border-color:#aa402a;
+}
+
+.results{
+  background:var(--light);
+  padding:20px;
+  border-radius:10px;
+  margin:20px 0;
+}
+
+.topic-score{
+  display:flex;
+  justify-content:space-between;
+  gap:15px;
+  padding:7px 0;
+  border-bottom:1px solid #bfd1c6;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  font-size:14px;
+}
+
+:focus-visible{
+  outline:3px solid #ba5c22;
+  outline-offset:4px;
+}
+
+[hidden]{display:none!important}
+
+.skip{
+  position:absolute;
+  left:-10000px;
+}
+
+.skip:focus{
+  left:10px;
+  top:10px;
+  background:white;
+  padding:10px;
+  z-index:10;
+}
+
+@media(max-width:850px){
+  .layout{grid-template-columns:1fr}
+  aside{position:static;max-height:none}
+  nav{columns:2}
+}
+
+@media(max-width:500px){
+  section{padding:20px}
+  .layout{padding:0 12px}
+  .cards{grid-template-columns:1fr}
+  nav{columns:1}
+}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+}
+
+@media print{
+  body{
+    background:white;
+    color:black;
+    font-size:11pt;
+  }
+
+  header{
+    background:white;
+    color:black;
+    padding:0;
+  }
+
+  header p{color:black}
+
+  aside,
+  .noprint,
+  #flashcards,
+  #practice,
+  footer{
+    display:none!important;
+  }
+
+  .layout{
+    display:block;
+    padding:0;
+    margin:0;
+  }
+
+  section{
+    border:0;
+    padding:0;
+    margin:20px 0;
+  }
+
+  h2,h3{break-after:avoid}
+  tr{break-inside:avoid}
+  .table-wrap{overflow:visible}
+}
+</style>
+</head>
+
+<body>
+
+<a class="skip" href="#main">Skip to study guide</a>
+
+<header>
+  <div>
+    <div class="eyebrow">Dr. Misty Marlowe • Chapter 9</div>
+    <h1>Development Across the Lifespan</h1>
+    <p>
+      Understand the concepts. Tell similar ideas apart.
+      Practice applying what you know to a new situation.
+    </p>
+    <p>
+      12 concept sections • 24 retrieval cards •
+      <span id="questionCount">84</span> practice questions
+    </p>
+  </div>
+</header>
+
+<div class="layout">
+
+<aside>
+  <strong>Your study pathway</strong>
+
+  <nav aria-label="Study guide navigation">
+    <a href="#start">How to use this guide</a>
+    <a href="#foundations">1. Foundations and research</a>
+    <a href="#prenatal">2. Genetics and prenatal development</a>
+    <a href="#infancy">3. Prenatal risks and newborn abilities</a>
+    <a href="#attachment">4. Attachment</a>
+    <a href="#parenting">5. Play, parenting, and resilience</a>
+    <a href="#erikson">6. Erikson’s eight stages</a>
+    <a href="#piaget">7. Piaget’s cognitive stages</a>
+    <a href="#learning">8. Information processing and Vygotsky</a>
+    <a href="#adolescence">9. Adolescence and moral reasoning</a>
+    <a href="#adulthood">10. Adulthood and family life</a>
+    <a href="#aging">11. Aging</a>
+    <a href="#endoflife">12. Life review and end-of-life theories</a>
+    <a href="#checklist">Final retrieval checklist</a>
+    <a href="#flashcards">Retrieval flashcards</a>
+    <a href="#practice">Practice quiz</a>
+  </nav>
+
+  <button type="button" id="printButton">Print study guide</button>
+</aside>
+
+<main id="main">
+
+<section id="start">
+  <h2>How to use this guide</h2>
+
+  <p>
+    This guide follows your Chapter 9 test-bank topics.
+    Focus on identifying the concept in a new scenario rather than
+    memorizing the wording of one question.
+  </p>
+
+  <ol>
+    <li>Study one section, then explain it without looking.</li>
+    <li>Create an example for each theory or distinction.</li>
+    <li>Recreate the Erikson, Piaget, parenting, and attachment tables.</li>
+    <li>Take the practice quiz without notes.</li>
+    <li>Read every explanation, including answers you guessed correctly.</li>
+    <li>Return the next day and retry missed concepts.</li>
+  </ol>
+
+  <div class="callout">
+    <strong>Read → recall → apply → review.</strong>
+    Practice scores identify study needs; they do not guarantee an exam score.
+  </div>
+
+  <p>
+    <strong>For scenario questions, ask:</strong>
+    “Is this about biological change, cognitive reasoning,
+    social relationships, or a research method?”
+  </p>
+</section>
+
+<section id="foundations">
+  <h2>1. Foundations and developmental research</h2>
+
+  <p>
+    <strong>Developmental psychology</strong> studies patterns of growth
+    and change across the entire lifespan.
+    Development includes physical, cognitive, and social-emotional changes.
+  </p>
+
+  <h3>Nature and nurture</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Concept</th>
+          <th scope="col">Meaning</th>
+          <th scope="col">Scenario clue</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Nature</td>
+          <td>Inherited and biological influences.</td>
+          <td>Genetic similarities or maturation.</td>
+        </tr>
+        <tr>
+          <td>Nurture</td>
+          <td>Environmental influences and experience.</td>
+          <td>Parenting, education, social expectations, and culture.</td>
+        </tr>
+        <tr>
+          <td>Interaction</td>
+          <td>Biological and environmental influences work together.</td>
+          <td>A developing ability depends on both maturation and experience.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>
+    Similarities between identical twins raised apart can provide evidence
+    consistent with genetic influence. They do not prove that environment
+    has no effect.
+  </p>
+
+  <p>
+    Similarities among genetically unrelated children raised in the same
+    family can help researchers examine shared environmental influences.
+    No single comparison perfectly isolates every genetic or environmental factor.
+  </p>
+
+  <h3>Research designs</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Design</th>
+          <th scope="col">What researchers do</th>
+          <th scope="col">Main limitation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Cross-sectional</td>
+          <td>Compare different age groups at one point in time.</td>
+          <td>Age differences may be mixed with cohort differences.</td>
+        </tr>
+        <tr>
+          <td>Longitudinal</td>
+          <td>Study the same participants repeatedly over time.</td>
+          <td>Time, cost, participant loss, and repeated-testing effects.</td>
+        </tr>
+        <tr>
+          <td>Sequential</td>
+          <td>Follow more than one age cohort over time.</td>
+          <td>More complex and resource intensive.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>
+    A <strong>cohort</strong> is a group sharing a historical period or
+    experience, such as people born during a similar span of years.
+  </p>
+
+  <div class="callout">
+    <strong>Cross-sectional = different people, same time.</strong><br>
+    <strong>Longitudinal = same people, different times.</strong><br>
+    <strong>Cohort = shared historical context.</strong>
+  </div>
+
+  <p>
+    If 20-year-olds and 60-year-olds perform differently today,
+    the difference may reflect age, schooling, technology exposure,
+    or other historical experiences.
+  </p>
+
+  <details>
+    <summary>Check yourself: A researcher reassesses the same children every six months. Which design?</summary>
+    <p>Longitudinal research.</p>
+  </details>
+</section>
+
+<section id="prenatal">
+  <h2>2. Genetics and prenatal development</h2>
+
+  <h3>Genes, DNA, and chromosomes</h3>
+
+  <ul>
+    <li><strong>DNA:</strong> the molecule carrying genetic information.</li>
+    <li><strong>Genes:</strong> functional segments of DNA involved in biological processes and inheritance.</li>
+    <li><strong>Chromosomes:</strong> structures containing DNA and many genes.</li>
+    <li><strong>Typical human zygote:</strong> 46 chromosomes arranged in 23 pairs.</li>
+    <li><strong>Zygote:</strong> the single cell formed by fertilization.</li>
+  </ul>
+
+  <p>
+    The bank uses the typical introductory association
+    <strong>XX → female development</strong> and
+    <strong>XY → male development</strong>.
+    Biological sex development is more complex than chromosomes alone,
+    and variations occur.
+  </p>
+
+  <p>
+    The <strong>Human Genome Project</strong> produced a reference sequence
+    and maps of the human genome. It did not establish a simple
+    one-gene explanation for every human trait.
+  </p>
+
+  <div class="callout warning">
+    The bank’s claim that the project mapped “every human gene” is simplified.
+    The original project produced an essentially complete reference for
+    its time, with difficult regions resolved by later research.
+  </div>
+
+  <h3>Prenatal stages</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Stage</th>
+          <th scope="col">Approximate timing after conception</th>
+          <th scope="col">Key features</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Germinal</td>
+          <td>First two weeks.</td>
+          <td>Fertilization, cell division, and implantation.</td>
+        </tr>
+        <tr>
+          <td>Embryonic</td>
+          <td>Approximately weeks 2–8.</td>
+          <td>Formation of major body structures and organs.</td>
+        </tr>
+        <tr>
+          <td>Fetal</td>
+          <td>After the embryonic period through birth.</td>
+          <td>Growth, increasing differentiation, and maturation of body systems.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout">
+    <strong>Germinal → embryonic → fetal.</strong><br>
+    Zygote → embryo → fetus.
+  </div>
+
+  <h3>Timing terms</h3>
+
+  <ul>
+    <li>
+      <strong>Critical period:</strong>
+      a relatively narrow interval when particular input is especially
+      necessary for typical development.
+    </li>
+    <li>
+      <strong>Sensitive period:</strong>
+      a period of heightened responsiveness to experience;
+      change may still be possible outside it.
+    </li>
+    <li>
+      <strong>Viability:</strong>
+      the possibility of survival outside the uterus with available care.
+    </li>
+    <li>
+      <strong>Preterm birth:</strong>
+      birth before 37 completed weeks of pregnancy,
+      using obstetric gestational dating.
+    </li>
+  </ul>
+
+  <p>
+    Sensitive and critical periods can occur before or after birth.
+  </p>
+
+  <div class="callout warning">
+    <strong>Do not mix dating systems.</strong>
+    Time since conception differs from obstetric gestational age,
+    which is usually counted from the last menstrual period.
+    The bank uses “22 weeks after conception” as a simplified viability
+    answer. Survival is not guaranteed at one fixed week and depends
+    on multiple clinical factors.
+  </div>
+</section>
+
+<section id="infancy">
+  <h2>3. Prenatal risks and newborn abilities</h2>
+
+  <h3>Inherited and chromosomal conditions</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Condition</th>
+          <th scope="col">Chapter association</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Phenylketonuria: PKU</td>
+          <td>Difficulty processing phenylalanine; untreated buildup can harm development.</td>
+        </tr>
+        <tr>
+          <td>Tay-Sachs disease</td>
+          <td>An inherited condition involving harmful accumulation of a fatty substance in nerve cells.</td>
+        </tr>
+        <tr>
+          <td>Down syndrome</td>
+          <td>Usually associated with an extra copy of chromosome 21.</td>
+        </tr>
+        <tr>
+          <td>Sickle-cell disease</td>
+          <td>An inherited hemoglobin condition affecting red blood cells.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>
+    The bank’s severe PKU outcome refers to untreated disease.
+    Early identification and treatment can prevent major developmental harm.
+    Tay-Sachs is more specific than a general inability to digest all fat,
+    and different forms have different courses.
+  </p>
+
+  <h3>Teratogens</h3>
+
+  <p>
+    A <strong>teratogen</strong> is an exposure that can disrupt prenatal
+    development. Effects depend on factors such as timing, dose,
+    and individual susceptibility.
+  </p>
+
+  <p>
+    The bank’s medication example illustrates a potential teratogenic
+    exposure. It is a classification question, not a reason for a pregnant
+    person to start or stop prescribed medication independently.
+  </p>
+
+  <p>
+    <strong>Fetal alcohol syndrome</strong> is associated with prenatal
+    alcohol exposure and can involve growth differences,
+    characteristic facial features, and neurodevelopmental difficulties.
+    It is part of the broader range of fetal alcohol spectrum disorders.
+  </p>
+
+  <h3>Newborn reflexes</h3>
+
+  <p>A newborn is a <strong>neonate</strong>.</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Reflex</th>
+          <th scope="col">Recognition clue</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rooting</td>
+          <td>Turning the head toward a touch on the cheek.</td>
+        </tr>
+        <tr>
+          <td>Sucking</td>
+          <td>Sucking in response to appropriate stimulation around the mouth.</td>
+        </tr>
+        <tr>
+          <td>Startle / Moro</td>
+          <td>A characteristic arm response to sudden stimulation or loss of support.</td>
+        </tr>
+        <tr>
+          <td>Babinski</td>
+          <td>Toes fan outward when the sole is stroked in the characteristic way.</td>
+        </tr>
+        <tr>
+          <td>Gag</td>
+          <td>A protective response to stimulation near the back of the mouth or throat.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Habituation</h3>
+
+  <p>
+    <strong>Habituation</strong> is a decrease in responding after repeated
+    presentation of the same stimulus.
+    It can help researchers study infant attention and learning.
+  </p>
+
+  <div class="callout">
+    <strong>Rooting = turn toward cheek touch.</strong><br>
+    <strong>Babinski = toes fan.</strong><br>
+    <strong>Habituation = response decreases with repetition.</strong>
+  </div>
+</section>
+
+<section id="attachment">
+  <h2>4. Attachment</h2>
+
+  <p>
+    <strong>Attachment</strong> is an enduring emotional bond with a
+    caregiver. It is a central part of early social development.
+  </p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Researcher or method</th>
+          <th scope="col">Main connection</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Konrad Lorenz</td>
+          <td>Imprinting in certain species during an early sensitive or critical period.</td>
+        </tr>
+        <tr>
+          <td>Harry Harlow</td>
+          <td>Contact comfort was important in infant monkeys’ attachment behavior.</td>
+        </tr>
+        <tr>
+          <td>Mary Ainsworth</td>
+          <td>The Strange Situation used separation and reunion to examine attachment patterns.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>
+    <strong>Imprinting</strong> is not a complete explanation of human
+    attachment. Harlow’s findings also do not mean infants do not need food.
+    The key lesson is that attachment cannot be explained by feeding alone.
+  </p>
+
+  <h3>Attachment patterns</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Pattern</th>
+          <th scope="col">Typical Strange Situation clues</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Secure</td>
+          <td>Uses caregiver as a secure base, seeks comfort, and is soothed by reunion.</td>
+        </tr>
+        <tr>
+          <td>Avoidant</td>
+          <td>Shows relatively little overt seeking of contact and may avoid the caregiver at reunion.</td>
+        </tr>
+        <tr>
+          <td>Ambivalent / resistant</td>
+          <td>Strong distress, difficulty being soothed, and a mixture of seeking and resisting contact.</td>
+        </tr>
+        <tr>
+          <td>Disorganized</td>
+          <td>Contradictory, disoriented, or apprehensive behavior without a consistent strategy.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout">
+    <strong>Secure = explore, seek comfort, settle.</strong><br>
+    <strong>Avoidant = limited overt contact seeking.</strong><br>
+    <strong>Ambivalent = seek and resist.</strong>
+  </div>
+
+  <p>
+    Sensitive, responsive caregiving supports attachment.
+    Responding to both positive and negative signals matters.
+    No single behavior guarantees a particular attachment classification.
+  </p>
+
+  <p class="small">
+    Attachment classifications describe relationship patterns, not fixed
+    character flaws or a child’s inevitable future.
+    Associations with later adjustment are probabilistic and depend on context.
+  </p>
+</section>
+
+<section id="parenting">
+  <h2>5. Play, parenting, temperament, and resilience</h2>
+
+  <h3>Play and social experience</h3>
+
+  <p>
+    <strong>Parallel play</strong> occurs when children play near one another
+    with limited coordination of their activities.
+    It is different from organized cooperative play.
+  </p>
+
+  <p>
+    Social interaction provides opportunities to interpret others’
+    behavior, practice communication, and respond appropriately.
+    High-quality early care can support development, particularly when
+    children face limited access to resources.
+  </p>
+
+  <p>
+    The bank associates fathers with more physical or rough-and-tumble play
+    on average. Treat this as a group-level generalization in the text,
+    not a rule for every father, mother, or family.
+  </p>
+
+  <h3>Parenting styles</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Style</th>
+          <th scope="col">Typical pattern</th>
+          <th scope="col">Scenario clue</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Authoritarian</td>
+          <td>High demands, low responsiveness, emphasis on obedience.</td>
+          <td>“Follow the rule without questioning.”</td>
+        </tr>
+        <tr>
+          <td>Authoritative</td>
+          <td>Clear expectations combined with warmth, explanation, and responsiveness.</td>
+          <td>Firm limits plus reasons and discussion.</td>
+        </tr>
+        <tr>
+          <td>Permissive</td>
+          <td>High responsiveness with relatively few demands or limits.</td>
+          <td>Warm and tolerant but few rules.</td>
+        </tr>
+        <tr>
+          <td>Uninvolved</td>
+          <td>Low responsiveness and low involvement or demands.</td>
+          <td>Little engagement or guidance.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout">
+    <strong>Authoritarian = obedience.</strong><br>
+    <strong>Authoritative = expectations + explanation.</strong><br>
+    <strong>Permissive = few limits.</strong><br>
+    <strong>Uninvolved = little engagement.</strong>
+  </div>
+
+  <h3>Temperament and resilience</h3>
+
+  <ul>
+    <li>
+      <strong>Temperament:</strong>
+      early-emerging differences in emotional reactivity and self-regulation.
+    </li>
+    <li>
+      <strong>Resilience:</strong>
+      adapting relatively well despite significant adversity.
+    </li>
+  </ul>
+
+  <p>
+    Development is bidirectional: children influence caregivers,
+    and caregivers influence children.
+    A child’s temperament can help shape the responses adults provide.
+  </p>
+
+  <p>
+    Resilience is supported by relationships and resources.
+    It does not mean a child is unaffected by hardship or must cope alone.
+  </p>
+</section>
+
+<section id="erikson">
+  <h2>6. Erikson’s eight psychosocial stages</h2>
+
+  <p>
+    Erikson described psychosocial development across the lifespan.
+    Each stage highlights a central challenge involving the person
+    and the social world.
+  </p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Approximate period</th>
+          <th scope="col">Conflict</th>
+          <th scope="col">Main question or positive direction</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Infancy</td>
+          <td>Trust vs. mistrust</td>
+          <td>Can I depend on others to meet my needs?</td>
+        </tr>
+        <tr>
+          <td>Toddlerhood</td>
+          <td>Autonomy vs. shame and doubt</td>
+          <td>Can I do things for myself?</td>
+        </tr>
+        <tr>
+          <td>Preschool years</td>
+          <td>Initiative vs. guilt</td>
+          <td>Can I start activities and pursue goals?</td>
+        </tr>
+        <tr>
+          <td>School-age years</td>
+          <td>Industry vs. inferiority</td>
+          <td>Can I develop skills and feel competent?</td>
+        </tr>
+        <tr>
+          <td>Adolescence</td>
+          <td>Identity vs. role confusion</td>
+          <td>Who am I, and what matters to me?</td>
+        </tr>
+        <tr>
+          <td>Young adulthood</td>
+          <td>Intimacy vs. isolation</td>
+          <td>Can I form close, committed relationships?</td>
+        </tr>
+        <tr>
+          <td>Middle adulthood</td>
+          <td>Generativity vs. stagnation</td>
+          <td>How can I contribute to future generations?</td>
+        </tr>
+        <tr>
+          <td>Later adulthood</td>
+          <td>Integrity vs. despair</td>
+          <td>Can I accept and find meaning in my life?</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout">
+    <strong>Infant → trust.</strong><br>
+    <strong>Toddler → autonomy.</strong><br>
+    <strong>Preschool → initiative.</strong><br>
+    <strong>School age → industry.</strong><br>
+    <strong>Adolescent → identity.</strong><br>
+    <strong>Young adult → intimacy.</strong><br>
+    <strong>Middle adult → generativity.</strong><br>
+    <strong>Older adult → integrity.</strong>
+  </div>
+
+  <h3>Scenario clues</h3>
+
+  <ul>
+    <li>Unpredictable care → trust/mistrust.</li>
+    <li>Trying to dress independently → autonomy/shame and doubt.</li>
+    <li>Wanting to help or initiate a project → initiative/guilt.</li>
+    <li>Developing school skills and competence → industry/inferiority.</li>
+    <li>Exploring values and future roles → identity/role confusion.</li>
+    <li>Forming close relationships → intimacy/isolation.</li>
+    <li>Mentoring and contributing → generativity/stagnation.</li>
+    <li>Evaluating and accepting one’s life → integrity/despair.</li>
+  </ul>
+
+  <p>
+    Generativity can involve mentoring, teaching, creativity,
+    community work, or caregiving. It does not require marriage or parenthood.
+  </p>
+
+  <p class="small">
+    The theory’s lifespan scope is a strength.
+    Criticisms include cultural and gender assumptions and difficulty
+    testing broad constructs. Ages and challenges are not rigid deadlines,
+    and one difficult interaction does not determine a child’s future.
+  </p>
+</section>
+
+<section id="piaget">
+  <h2>7. Piaget’s stages of cognitive development</h2>
+
+  <p>
+    Piaget proposed qualitative changes in thinking, not simply the
+    accumulation of more facts.
+    His account emphasizes interaction between maturation and experience.
+  </p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Stage</th>
+          <th scope="col">Approximate age</th>
+          <th scope="col">Key features</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sensorimotor</td>
+          <td>Birth to about 2 years.</td>
+          <td>Learning through action and sensation; development of object permanence.</td>
+        </tr>
+        <tr>
+          <td>Preoperational</td>
+          <td>About 2–7 years.</td>
+          <td>Symbolic thought and language; difficulty with some perspective-taking and conservation tasks.</td>
+        </tr>
+        <tr>
+          <td>Concrete operational</td>
+          <td>About 7–11 years.</td>
+          <td>Logical operations involving concrete situations; conservation and reversibility.</td>
+        </tr>
+        <tr>
+          <td>Formal operational</td>
+          <td>About 12 years onward.</td>
+          <td>Abstract, hypothetical, and systematic reasoning.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout">
+    <strong>Sensorimotor → preoperational → concrete operational → formal operational.</strong>
+  </div>
+
+  <h3>Concepts to distinguish</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Concept</th>
+          <th scope="col">Meaning</th>
+          <th scope="col">Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Object permanence</td>
+          <td>Objects continue to exist when out of sight.</td>
+          <td>Searching for a hidden toy.</td>
+        </tr>
+        <tr>
+          <td>Egocentrism</td>
+          <td>Difficulty appreciating a perspective different from one’s own.</td>
+          <td>Assuming another person sees exactly what you see.</td>
+        </tr>
+        <tr>
+          <td>Conservation</td>
+          <td>Quantity remains the same despite a change in appearance.</td>
+          <td>The same juice remains the same amount in a taller glass.</td>
+        </tr>
+        <tr>
+          <td>Reversibility</td>
+          <td>An operation can be mentally reversed.</td>
+          <td>Recognizing that pouring the juice back restores its original appearance.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>
+    A child who says a taller glass contains more juice after watching
+    the same liquid being poured has difficulty with
+    <strong>conservation</strong>, not necessarily object permanence.
+  </p>
+
+  <p>
+    A child can use words and symbols before mastering logical operations.
+    Concrete operational reasoning is logical but tied more closely to
+    concrete situations; formal operations emphasize hypothetical possibilities.
+  </p>
+
+  <p class="small">
+    These ages are approximate descriptions within the theory.
+    Children’s performance depends on the task, experience, instruction,
+    and context. Modern research does not treat stage boundaries as
+    exact limits on what every child can learn.
+  </p>
+</section>
+
+<section id="learning">
+  <h2>8. Information processing and Vygotsky</h2>
+
+  <h3>Information-processing approach</h3>
+
+  <p>
+    This approach studies changes in attention, memory, processing efficiency,
+    strategies, and self-monitoring.
+    As some processes become more automatic, resources can become available
+    for other parts of a task.
+  </p>
+
+  <p>
+    <strong>Metacognition</strong> means knowledge and regulation of one’s
+    own thinking. Recognizing that a memory strategy failed and selecting
+    a better one illustrates metacognition.
+  </p>
+
+  <h3>Vygotsky’s sociocultural approach</h3>
+
+  <p>
+    Vygotsky emphasized the role of culture, language, and social interaction
+    in cognitive development.
+  </p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Concept</th>
+          <th scope="col">Meaning</th>
+          <th scope="col">Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Zone of proximal development: ZPD</td>
+          <td>The range between independent performance and what is possible with appropriate assistance.</td>
+          <td>A child solves a problem with useful prompts but cannot yet solve it alone.</td>
+        </tr>
+        <tr>
+          <td>Scaffolding</td>
+          <td>Adjustable support that helps a learner perform a task and is reduced as competence increases.</td>
+          <td>A teacher models one step, then gradually removes prompts.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout">
+    <strong>Piaget:</strong> changes in the organization of thinking.<br>
+    <strong>Information processing:</strong> changes in strategies and efficiency.<br>
+    <strong>Vygotsky:</strong> learning through culture and supported interaction.
+  </div>
+
+  <details>
+    <summary>Check yourself: A child succeeds with a parent’s prompts but not alone. Which concept fits?</summary>
+    <p>The task is within the child’s zone of proximal development.</p>
+  </details>
+</section>
+
+<section id="adolescence">
+  <h2>9. Adolescence and moral reasoning</h2>
+
+  <h3>Puberty and identity</h3>
+
+  <p>
+    <strong>Puberty</strong> is the biological process of sexual maturation.
+    <strong>Adolescence</strong> is a broader developmental transition
+    involving physical, cognitive, and social changes.
+  </p>
+
+  <p>
+    Erikson associates adolescence with
+    <strong>identity vs. role confusion</strong>.
+    Peers can become especially important sources of feedback,
+    but families and other relationships still matter.
+  </p>
+
+  <p>
+    <strong>Adolescent egocentrism</strong> involves heightened self-focus
+    and difficulty separating one’s own concerns from others’ perspectives.
+    An <strong>imaginary audience</strong> involves feeling watched or judged;
+    a <strong>personal fable</strong> involves beliefs about one’s uniqueness
+    or special invulnerability.
+  </p>
+
+  <h3>Kohlberg’s moral reasoning</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Level</th>
+          <th scope="col">Reasoning emphasizes</th>
+          <th scope="col">Example reason</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Preconventional</td>
+          <td>Personal consequences, punishment, reward, or self-interest.</td>
+          <td>“I could be punished or hurt.”</td>
+        </tr>
+        <tr>
+          <td>Conventional</td>
+          <td>Approval, rules, duties, and maintaining social order.</td>
+          <td>“It is my duty to obey the rule.”</td>
+        </tr>
+        <tr>
+          <td>Postconventional</td>
+          <td>Rights, social contracts, and ethical principles.</td>
+          <td>“A principle of human rights matters even if a law conflicts with it.”</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout">
+    <strong>Judge the reason, not just the action.</strong>
+    Two people can make the same choice for different moral reasons.
+  </div>
+
+  <p>
+    Criticisms include limits to cultural generality and assumptions about
+    which moral concerns should define development.
+    The theory concerns <strong>moral reasoning</strong>;
+    reasoning and actual behavior are not identical.
+  </p>
+
+  <h3>Recognizing concerning changes</h3>
+
+  <p>
+    The bank includes a scenario involving withdrawal and appetite loss.
+    Such changes can indicate distress and merit attention.
+    A few behaviors in a short vignette are not enough to rank an actual
+    person’s suicide risk or make a diagnosis.
+  </p>
+</section>
+
+<section id="adulthood">
+  <h2>10. Adulthood and family life</h2>
+
+  <h3>Emerging adulthood</h3>
+
+  <p>
+    <strong>Emerging adulthood</strong> refers to a period often described
+    as extending from the late teens through the twenties, involving
+    exploration of education, work, relationships, and identity.
+  </p>
+
+  <p>
+    The bank emphasizes the late teens through the mid-twenties.
+    This life pattern is influenced by culture and opportunity;
+    it is not a universal stage experienced in the same way by everyone.
+  </p>
+
+  <h3>Adult psychosocial challenges</h3>
+
+  <ul>
+    <li><strong>Young adulthood:</strong> intimacy vs. isolation.</li>
+    <li><strong>Middle adulthood:</strong> generativity vs. stagnation.</li>
+    <li><strong>Later adulthood:</strong> integrity vs. despair.</li>
+  </ul>
+
+  <h3>Menopause</h3>
+
+  <p>
+    <strong>Menopause</strong> is the end of menstrual cycles associated
+    with reproductive aging, conventionally identified after 12 months
+    without menstruation when another cause does not explain it.
+    It is different from <strong>menarche</strong>, the first menstrual period.
+  </p>
+
+  <h3>Family structures and development</h3>
+
+  <p>
+    Families vary in marital status, household composition, caregiving
+    arrangements, employment, and social support.
+    Many adults combine paid work with caregiving and household responsibilities.
+  </p>
+
+  <p>
+    Family income, conflict, stability, supportive relationships,
+    and access to resources matter for children’s outcomes.
+    A household label alone does not determine competence or adjustment.
+  </p>
+
+  <div class="callout warning">
+    Several bank items make broad predictions about divorce, single-parent
+    families, and gender roles. Treat dated trend claims as claims to verify
+    against assigned materials, not rules for an individual family.
+    Increased economic risk does not mean an inevitable poor outcome.
+  </div>
+</section>
+
+<section id="aging">
+  <h2>11. Aging</h2>
+
+  <h3>Biological theories</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Theory</th>
+          <th scope="col">Chapter emphasis</th>
+          <th scope="col">Recognition clue</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Genetic programming</td>
+          <td>Biological timing and limits related to cellular processes.</td>
+          <td>A built-in limit on cell division.</td>
+        </tr>
+        <tr>
+          <td>Wear-and-tear</td>
+          <td>Accumulating damage, cellular errors, and byproducts over time.</td>
+          <td>Damage and errors accumulate.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>
+    These are broad theoretical emphases, not complete or mutually exclusive
+    explanations of every aspect of aging.
+  </p>
+
+  <h3>Cognitive changes</h3>
+
+  <p>
+    Remembering specific personal events involves
+    <strong>episodic memory</strong>.
+    General factual knowledge involves <strong>semantic memory</strong>.
+    These can show different patterns of change.
+  </p>
+
+  <p>
+    <strong>Alzheimer’s disease</strong> is a progressive brain disease
+    affecting memory and other cognitive abilities.
+    It is not an inevitable or normal part of aging.
+  </p>
+
+  <h3>Social theories</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Theory</th>
+          <th scope="col">Main idea</th>
+          <th scope="col">Scenario clue</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Disengagement theory</td>
+          <td>A historical account emphasizing withdrawal from roles and social involvement.</td>
+          <td>Reduced social engagement.</td>
+        </tr>
+        <tr>
+          <td>Activity theory</td>
+          <td>Maintaining meaningful activity and roles supports well-being.</td>
+          <td>Volunteering, hobbies, work, and social participation.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout">
+    <strong>Programming = biological limits.</strong><br>
+    <strong>Wear-and-tear = accumulated damage.</strong><br>
+    <strong>Disengagement = withdrawal.</strong><br>
+    <strong>Activity = meaningful participation.</strong>
+  </div>
+
+  <p class="small">
+    Withdrawal in a real person can have many explanations.
+    A historical theory is not a diagnosis or proof that withdrawal
+    is inevitable or desirable.
+  </p>
+</section>
+
+<section id="endoflife">
+  <h2>12. Life review and end-of-life theories</h2>
+
+  <h3>Life review</h3>
+
+  <p>
+    <strong>Life review</strong> involves examining and evaluating one’s
+    experiences, relationships, accomplishments, and regrets.
+    It connects with Erikson’s integrity-versus-despair theme.
+  </p>
+
+  <h3>Kübler-Ross’s proposed reactions</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Reaction</th>
+          <th scope="col">Typical textbook clue</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Denial</td>
+          <td>“This cannot be happening.”</td>
+        </tr>
+        <tr>
+          <td>Anger</td>
+          <td>“Why is this happening to me?”</td>
+        </tr>
+        <tr>
+          <td>Bargaining</td>
+          <td>“If I could only live until this important event…”</td>
+        </tr>
+        <tr>
+          <td>Depression</td>
+          <td>Sadness in response to loss or impending death.</td>
+        </tr>
+        <tr>
+          <td>Acceptance</td>
+          <td>Acknowledging the reality of what is happening.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout">
+    <strong>The bank’s “let me live until…” example = bargaining.</strong>
+  </div>
+
+  <p>
+    These proposed reactions are not a mandatory, universal sequence.
+    People may experience some, none, or several in changing order.
+    Do not use the model to tell someone how they must grieve.
+  </p>
+</section>
+
+<section id="checklist">
+  <h2>Final retrieval checklist</h2>
+
+  <p>Without notes, can you:</p>
+
+  <ul>
+    <li>Explain nature, nurture, and their interaction?</li>
+    <li>Distinguish cross-sectional, longitudinal, and cohort effects?</li>
+    <li>Separate DNA, genes, chromosomes, and a zygote?</li>
+    <li>Order germinal, embryonic, and fetal development?</li>
+    <li>Explain sensitive periods, viability, and preterm birth?</li>
+    <li>Identify PKU, Tay-Sachs, Down syndrome, and teratogens?</li>
+    <li>Match newborn reflexes and define habituation?</li>
+    <li>Connect Lorenz, Harlow, and Ainsworth to their findings?</li>
+    <li>Distinguish secure, avoidant, ambivalent, and disorganized patterns?</li>
+    <li>Compare parenting styles and explain temperament and resilience?</li>
+    <li>Match all eight Erikson conflicts to their central challenges?</li>
+    <li>Order Piaget’s stages and identify their major concepts?</li>
+    <li>Explain metacognition, the ZPD, and scaffolding?</li>
+    <li>Classify Kohlberg examples by their reasons?</li>
+    <li>Distinguish puberty, emerging adulthood, menarche, and menopause?</li>
+    <li>Separate biological and social theories of aging?</li>
+    <li>Explain life review and recognize bargaining?</li>
+  </ul>
+
+  <h3>A short study schedule</h3>
+
+  <p>
+    <strong>Session 1:</strong>
+    Sections 1–5. Draw a prenatal timeline and recreate the research,
+    attachment, and parenting comparisons.
+  </p>
+
+  <p>
+    <strong>Session 2:</strong>
+    Sections 6–9. Rebuild the Erikson, Piaget, and Kohlberg tables.
+  </p>
+
+  <p>
+    <strong>Session 3:</strong>
+    Sections 10–12. Practice adulthood and aging examples,
+    then complete the quiz.
+  </p>
+
+  <p>
+    <strong>Next day:</strong>
+    Retry missed concepts and explain this checklist aloud.
+  </p>
+</section>
+
+<section id="flashcards">
+  <h2>Retrieval flashcards</h2>
+  <p>Say your answer before opening each card.</p>
+  <div class="cards" id="cardContainer"></div>
+</section>
+
+<section id="practice">
+  <h2>Practice quiz</h2>
+
+  <p>
+    Complete all questions or select a topic.
+    Questions and answer choices shuffle with each new attempt.
+    Explanations appear after grading.
+  </p>
+
+  <div class="tools">
+    <label for="topic">Topic:</label>
+    <select id="topic">
+      <option value="all">All topics</option>
+    </select>
+    <button type="button" id="startButton">Start new attempt</button>
+  </div>
+
+  <p class="small">
+    Starting a new attempt clears current answers.
+    Scores stay in your browser and are not submitted.
+    Reloading clears the session.
+  </p>
+
+  <p id="progress" role="status" aria-live="polite"></p>
+  <div id="results" class="results" tabindex="-1" hidden></div>
+
+  <form id="quizForm">
+    <div id="questionContainer"></div>
+
+    <div class="tools">
+      <button class="primary" type="submit" id="gradeButton">
+        Grade attempt
+      </button>
+      <button type="button" id="retryButton" hidden>
+        Retry missed questions
+      </button>
+    </div>
+  </form>
+
+  <noscript>
+    <p>
+      Enable JavaScript for flashcards and practice questions.
+      The complete study guide above remains readable without JavaScript.
+    </p>
+  </noscript>
+</section>
+
+<section id="sources">
+  <h2>Further reading</h2>
+
+  <p>
+    The guide follows the supplied Chapter 9 topics.
+    These sources provide context for selected scientific clarifications.
+  </p>
+
+  <ul>
+    <li>
+      <a href="https://www.cdc.gov/maternal-infant-health/preterm-birth/">
+        CDC: Preterm Birth
+      </a>
+    </li>
+    <li>
+      <a href="https://www.acog.org/clinical/clinical-guidance/obstetric-care-consensus/articles/2017/10/periviable-birth">
+        ACOG: Periviable Birth
+      </a>
+    </li>
+    <li>
+      <a href="https://www.genome.gov/about-nhgri/Director/genomics-landscape/april-7-2022-the-human-genome-sequence-is-now-complete">
+        NHGRI: Human Genome Sequencing
+      </a>
+    </li>
+    <li>
+      <a href="https://www.nichd.nih.gov/health/topics/pku/conditioninfo/treatments">
+        NICHD: Phenylketonuria
+      </a>
+    </li>
+  </ul>
+</section>
+
+</main>
+</div>
+
+<footer>
+  Original practice questions based on Chapter 9 topics.
+  Practice performance does not guarantee an exam score.
+</footer>
+
+<script>
+"use strict";
+
+/*
+Each question uses:
+topic, prompt, correct answer, three distractors, explanation.
+
+Stored answer positions are balanced.
+Question and choice order are shuffled for every attempt.
+*/
+
+const questions = [];
+
+function addQuestion(
+  topic,
+  prompt,
+  correct,
+  distractor1,
+  distractor2,
+  distractor3,
+  explanation
+) {
+  const original = [
+    correct,
+    distractor1,
+    distractor2,
+    distractor3
+  ];
+
+  const answerIndex = questions.length % 4;
+
+  const options = answerIndex === 0
+    ? original
+    : original.slice(-answerIndex).concat(
+        original.slice(0, -answerIndex)
+      );
+
+  questions.push([
+    topic,
+    prompt,
+    options,
+    answerIndex,
+    explanation
+  ]);
+}
+
+/* Foundations and research */
+
+addQuestion(
+  "Foundations and research",
+  "Which field studies patterns of growth and change across life?",
+  "Developmental psychology",
+  "Oncology",
+  "Cytology",
+  "Parapsychology",
+  "Developmental psychology examines physical, cognitive, and social-emotional development across the lifespan."
+);
+
+addQuestion(
+  "Foundations and research",
+  "Similarities between identical twins raised apart are consistent with which influence?",
+  "Genetic or nature-related influence",
+  "Proof that environment has no effect",
+  "Proof that the twins have different genes",
+  "The absence of biological influence",
+  "Such similarities can support genetic influence, but they do not eliminate environmental explanations."
+);
+
+addQuestion(
+  "Foundations and research",
+  "Similarities among genetically unrelated children raised in the same family can help examine:",
+  "Shared environmental influences",
+  "Identical DNA sequences",
+  "The absence of nurture",
+  "A guaranteed single cause of development",
+  "Shared experiences may contribute to similarities among genetically unrelated family members."
+);
+
+addQuestion(
+  "Foundations and research",
+  "A researcher compares 5-, 10-, and 15-year-olds during the same month. Which design is this?",
+  "Cross-sectional",
+  "Longitudinal",
+  "A single-person case study",
+  "A repeated study of only one age group",
+  "Cross-sectional research compares different age groups at one time."
+);
+
+addQuestion(
+  "Foundations and research",
+  "A researcher reassesses the same children every year for six years. Which design is this?",
+  "Longitudinal",
+  "Cross-sectional",
+  "A one-time survey only",
+  "A meta-analysis",
+  "Longitudinal research follows the same participants over time."
+);
+
+addQuestion(
+  "Foundations and research",
+  "Older and younger groups differ partly because they grew up with different schooling and technology. This illustrates:",
+  "A cohort difference",
+  "Proof of a pure aging effect",
+  "An infant reflex",
+  "A prenatal stage",
+  "Cohort differences reflect different historical experiences and can complicate cross-sectional age comparisons."
+);
+
+addQuestion(
+  "Foundations and research",
+  "Which is a common limitation of longitudinal research?",
+  "Participant loss and the time required for follow-up",
+  "It never measures individual change",
+  "It can only compare different people once",
+  "It guarantees that historical context has no effect",
+  "Longitudinal studies can be costly and vulnerable to attrition, practice effects, and changing historical conditions."
+);
+
+/* Genetics and prenatal development */
+
+addQuestion(
+  "Genetics and prenatal development",
+  "A typical human zygote contains:",
+  "23 pairs of chromosomes",
+  "23 chromosomes total",
+  "46 pairs of chromosomes",
+  "Two chromosomes total",
+  "A typical zygote has 46 chromosomes arranged in 23 pairs."
+);
+
+addQuestion(
+  "Genetics and prenatal development",
+  "Genes are best described as:",
+  "Functional segments of DNA",
+  "Collections of whole organs",
+  "Synaptic gaps",
+  "All environmental experiences",
+  "Genes are segments of DNA involved in biological processes and inheritance."
+);
+
+addQuestion(
+  "Genetics and prenatal development",
+  "Which pairing matches the bank's typical introductory chromosome examples?",
+  "XX—female; XY—male",
+  "XX—male; XY—female",
+  "YY—female; XX—male",
+  "XY—female; YY—male",
+  "The bank uses the typical XX and XY associations. Actual sex development includes additional processes and variations."
+);
+
+addQuestion(
+  "Genetics and prenatal development",
+  "Which statement best describes the Human Genome Project?",
+  "It produced reference sequence information and maps of the human genome.",
+  "It proved every trait is controlled by one gene.",
+  "It programmed each person's future behavior.",
+  "It established that nurture never matters.",
+  "Genome sequencing maps DNA information; it does not provide a simple one-gene explanation of every trait."
+);
+
+addQuestion(
+  "Genetics and prenatal development",
+  "The one-celled entity formed at fertilization is a:",
+  "Zygote",
+  "Neonate",
+  "Fetus",
+  "Placental reflex",
+  "A zygote is the single cell formed by fertilization."
+);
+
+addQuestion(
+  "Genetics and prenatal development",
+  "The first approximately two weeks after conception are called the:",
+  "Germinal period",
+  "Fetal period",
+  "Neonatal period",
+  "Adolescent period",
+  "The germinal period includes early cell division and implantation."
+);
+
+addQuestion(
+  "Genetics and prenatal development",
+  "Formation of major body structures during approximately weeks 2–8 after conception is associated with the:",
+  "Embryonic period",
+  "Neonatal period",
+  "Emerging-adulthood period",
+  "Postnatal period only",
+  "The embryonic period is a major time of structural development."
+);
+
+addQuestion(
+  "Genetics and prenatal development",
+  "Which sequence correctly orders prenatal development?",
+  "Germinal → embryonic → fetal",
+  "Fetal → germinal → embryonic",
+  "Embryonic → fetal → germinal",
+  "Neonatal → fetal → germinal",
+  "The traditional prenatal sequence is germinal, embryonic, then fetal."
+);
+
+addQuestion(
+  "Genetics and prenatal development",
+  "The concept of viability concerns:",
+  "The possibility of survival outside the uterus with available care",
+  "The moment a child enters formal operations",
+  "A guarantee of survival at one exact week",
+  "The development of secure attachment",
+  "Viability depends on multiple factors and is not a guaranteed outcome at a single universal threshold."
+);
+
+addQuestion(
+  "Genetics and prenatal development",
+  "A baby born at 35 weeks of obstetric gestational age is considered:",
+  "Preterm",
+  "A germinal-stage infant",
+  "A postterm infant",
+  "An embryo",
+  "Preterm birth occurs before 37 completed weeks of pregnancy."
+);
+
+addQuestion(
+  "Genetics and prenatal development",
+  "Sensitive and critical periods can occur:",
+  "Before or after birth",
+  "Only during puberty",
+  "Only before birth",
+  "Only after retirement",
+  "Developmental periods of heightened sensitivity can occur at multiple points across life."
+);
+
+/* Prenatal risks and newborn abilities */
+
+addQuestion(
+  "Prenatal risks and newborn abilities",
+  "Which condition involves difficulty processing phenylalanine?",
+  "Phenylketonuria",
+  "Down syndrome",
+  "Sickle-cell disease",
+  "A secure attachment pattern",
+  "PKU involves impaired processing of phenylalanine. Early identification and treatment can prevent major harm."
+);
+
+addQuestion(
+  "Prenatal risks and newborn abilities",
+  "Harmful accumulation of a fatty substance in nerve cells is a key association for:",
+  "Tay-Sachs disease",
+  "The rooting reflex",
+  "Conservation",
+  "Metacognition",
+  "Tay-Sachs involves a specific metabolic problem affecting nerve cells, not a general inability to digest all fat."
+);
+
+addQuestion(
+  "Prenatal risks and newborn abilities",
+  "An extra copy of chromosome 21 is most strongly associated with:",
+  "Down syndrome",
+  "Phenylketonuria",
+  "Habituation",
+  "Object permanence",
+  "Most cases of Down syndrome involve trisomy 21."
+);
+
+addQuestion(
+  "Prenatal risks and newborn abilities",
+  "An exposure that can disrupt prenatal development is called a:",
+  "Teratogen",
+  "Cohort",
+  "Schema",
+  "Reflex",
+  "A teratogen is a potentially harmful prenatal exposure; effects vary with timing, dose, and other factors."
+);
+
+addQuestion(
+  "Prenatal risks and newborn abilities",
+  "Which condition is associated with prenatal alcohol exposure?",
+  "Fetal alcohol syndrome",
+  "Tay-Sachs disease",
+  "Down syndrome",
+  "An inherited extra chromosome in every case",
+  "Fetal alcohol syndrome can involve growth, facial, and neurodevelopmental differences associated with prenatal exposure."
+);
+
+addQuestion(
+  "Prenatal risks and newborn abilities",
+  "A newborn is called a:",
+  "Neonate",
+  "Zygote",
+  "Embryo",
+  "Germinal cell",
+  "Neonate is the term for a newborn."
+);
+
+addQuestion(
+  "Prenatal risks and newborn abilities",
+  "Turning the head toward a touch on the cheek illustrates the:",
+  "Rooting reflex",
+  "Babinski reflex",
+  "Conservation principle",
+  "Formal operational stage",
+  "Rooting helps orient the infant toward stimulation near the cheek and mouth."
+);
+
+addQuestion(
+  "Prenatal risks and newborn abilities",
+  "An infant's toes fan outward when the sole is stroked in the characteristic way. This is the:",
+  "Babinski response",
+  "Rooting reflex",
+  "Sucking reflex",
+  "Strange Situation",
+  "The Babinski response involves the toes following stimulation of the sole."
+);
+
+addQuestion(
+  "Prenatal risks and newborn abilities",
+  "A protective response to stimulation near the back of the mouth or throat is the:",
+  "Gag reflex",
+  "Rooting reflex",
+  "Parallel-play response",
+  "Imprinting response",
+  "The gag reflex is a protective response involving the mouth and throat."
+);
+
+addQuestion(
+  "Prenatal risks and newborn abilities",
+  "A baby looks less at the same repeated image over successive presentations. This illustrates:",
+  "Habituation",
+  "Conservation",
+  "Generativity",
+  "Retrograde amnesia",
+  "Habituation is a decrease in responding after repeated presentation of the same stimulus."
+);
+
+/* Attachment */
+
+addQuestion(
+  "Attachment",
+  "Lorenz's observations of early following behavior in certain birds are associated with:",
+  "Imprinting",
+  "Authoritative parenting",
+  "Formal operations",
+  "Menopause",
+  "Imprinting is an early learning process studied in certain species; it is not a complete account of human attachment."
+);
+
+addQuestion(
+  "Attachment",
+  "Harlow's infant-monkey research highlighted the importance of:",
+  "Contact comfort beyond feeding alone",
+  "Food as the only basis of attachment",
+  "The absence of any need for care",
+  "Abstract moral reasoning",
+  "The monkeys' behavior showed that attachment could not be explained simply by which surrogate provided milk."
+);
+
+addQuestion(
+  "Attachment",
+  "An infant explores near a caregiver, seeks comfort when upset, and settles after reunion. Which pattern fits?",
+  "Secure attachment",
+  "Avoidant attachment",
+  "Ambivalent attachment",
+  "Disorganized attachment by definition",
+  "Secure attachment involves using the caregiver as a secure base and accepting comfort."
+);
+
+addQuestion(
+  "Attachment",
+  "An infant shows relatively little overt contact seeking and avoids the caregiver at reunion. Which pattern fits?",
+  "Avoidant attachment",
+  "Secure attachment",
+  "Ambivalent attachment",
+  "Formal operational attachment",
+  "Avoidant patterns include limited overt seeking of proximity and avoidance at reunion."
+);
+
+addQuestion(
+  "Attachment",
+  "An infant is highly distressed, seeks closeness, but also resists comfort. Which pattern fits?",
+  "Ambivalent or resistant attachment",
+  "Secure attachment",
+  "Avoidant attachment",
+  "Parallel attachment",
+  "Ambivalent/resistant attachment involves both seeking and resisting contact and difficulty being soothed."
+);
+
+addQuestion(
+  "Attachment",
+  "Contradictory or disoriented attachment behavior without a consistent strategy is called:",
+  "Disorganized attachment",
+  "Secure attachment",
+  "Parallel play",
+  "Authoritative attachment",
+  "Disorganized classification concerns inconsistent or disoriented behavior in the attachment context."
+);
+
+addQuestion(
+  "Attachment",
+  "Which caregiving pattern generally supports secure attachment?",
+  "Sensitive responsiveness to the child's signals",
+  "Responding only to positive emotions",
+  "Never responding to distress",
+  "Assuming one technique guarantees the outcome",
+  "Sensitive, responsive care supports security, but no single action guarantees a classification or later outcome."
+);
+
+/* Parenting and social development */
+
+addQuestion(
+  "Parenting and social development",
+  "Two toddlers play beside each other with similar toys but do not organize a shared game. This is:",
+  "Parallel play",
+  "Formal cooperation",
+  "Imprinting",
+  "Conservation",
+  "Parallel play involves playing near others with limited coordination of activities."
+);
+
+addQuestion(
+  "Parenting and social development",
+  "Which statement best reflects the chapter's discussion of high-quality early care?",
+  "It can support development, including for children facing limited resources.",
+  "It guarantees identical outcomes for all children.",
+  "It causes genetic disorders.",
+  "It eliminates the influence of family relationships.",
+  "Quality, relationships, and resources matter; benefits are not identical or guaranteed for every child."
+);
+
+addQuestion(
+  "Parenting and social development",
+  "Parents demand obedience, discourage questions, and use harsh control. Which style is emphasized?",
+  "Authoritarian",
+  "Authoritative",
+  "Permissive",
+  "Uninvolved",
+  "Authoritarian parenting emphasizes compliance and high control with relatively low responsiveness."
+);
+
+addQuestion(
+  "Parenting and social development",
+  "Parents set clear limits, explain reasons, and listen to their child. Which style is emphasized?",
+  "Authoritative",
+  "Authoritarian",
+  "Permissive",
+  "Uninvolved",
+  "Authoritative parenting combines expectations with warmth, explanation, and responsiveness."
+);
+
+addQuestion(
+  "Parenting and social development",
+  "Warm parents set very few rules and tolerate nearly all behavior. Which style fits?",
+  "Permissive",
+  "Authoritarian",
+  "Authoritative",
+  "Uninvolved",
+  "Permissive parenting is responsive but places relatively few demands or limits."
+);
+
+addQuestion(
+  "Parenting and social development",
+  "A child's emotional reactivity influences how caregivers respond. This most directly illustrates:",
+  "Temperament and bidirectional influence",
+  "The absence of any child influence",
+  "A guaranteed parenting outcome",
+  "Only a cohort effect",
+  "Children's characteristics can influence caregiving, just as caregiving influences children."
+);
+
+addQuestion(
+  "Parenting and social development",
+  "Adapting relatively well despite significant adversity is called:",
+  "Resilience",
+  "Egocentrism",
+  "Imprinting",
+  "Stagnation",
+  "Resilience concerns adaptation under adversity and is supported by relationships and resources."
+);
+
+/* Erikson */
+
+addQuestion(
+  "Erikson",
+  "Dependable care during infancy is central to which conflict?",
+  "Trust vs. mistrust",
+  "Industry vs. inferiority",
+  "Identity vs. role confusion",
+  "Generativity vs. stagnation",
+  "Erikson associated infancy with developing trust in the responsiveness of others."
+);
+
+addQuestion(
+  "Erikson",
+  "A toddler insists on dressing independently. Which conflict is most relevant?",
+  "Autonomy vs. shame and doubt",
+  "Integrity vs. despair",
+  "Intimacy vs. isolation",
+  "Industry vs. inferiority",
+  "Toddler autonomy involves a developing sense of independent action and self-control."
+);
+
+addQuestion(
+  "Erikson",
+  "A preschooler eagerly starts projects and offers to help. Which conflict is emphasized?",
+  "Initiative vs. guilt",
+  "Trust vs. mistrust",
+  "Generativity vs. stagnation",
+  "Integrity vs. despair",
+  "Initiative concerns beginning activities and pursuing goals during the preschool period."
+);
+
+addQuestion(
+  "Erikson",
+  "A school-age child wants to master assignments and feel capable. Which conflict fits?",
+  "Industry vs. inferiority",
+  "Intimacy vs. isolation",
+  "Autonomy vs. shame and doubt",
+  "Integrity vs. despair",
+  "Industry concerns skill development, productivity, and competence."
+);
+
+addQuestion(
+  "Erikson",
+  "A teenager explores values, possible careers, and social roles. Which conflict fits?",
+  "Identity vs. role confusion",
+  "Trust vs. mistrust",
+  "Initiative vs. guilt",
+  "Integrity vs. despair",
+  "Identity development centers on who one is and which roles and values matter."
+);
+
+addQuestion(
+  "Erikson",
+  "A young adult works toward a close, committed relationship. Which conflict fits?",
+  "Intimacy vs. isolation",
+  "Industry vs. inferiority",
+  "Trust vs. mistrust",
+  "Generativity vs. stagnation",
+  "Intimacy involves forming close relationships without losing a coherent sense of self."
+);
+
+addQuestion(
+  "Erikson",
+  "A middle-aged adult mentors younger colleagues and contributes to community projects. Which concept is emphasized?",
+  "Generativity",
+  "Role confusion",
+  "Infant trust",
+  "Preschool guilt",
+  "Generativity includes investing in future generations through many forms of contribution, not only parenthood."
+);
+
+addQuestion(
+  "Erikson",
+  "An older adult reflects on life and accepts its meaning despite regrets. Which conflict is most relevant?",
+  "Integrity vs. despair",
+  "Autonomy vs. shame and doubt",
+  "Initiative vs. guilt",
+  "Identity vs. role confusion",
+  "Integrity involves acceptance and a sense of coherence when evaluating one's life."
+);
+
+addQuestion(
+  "Erikson",
+  "Which is a strength commonly associated with Erikson's theory?",
+  "It addresses development across the entire lifespan.",
+  "It proves that culture never matters.",
+  "It ends development at puberty.",
+  "It supplies an exact prediction for every individual.",
+  "Its lifespan scope is a strength, although broad constructs and cultural assumptions are important limitations."
+);
+
+/* Piaget */
+
+addQuestion(
+  "Piaget",
+  "Which sequence correctly orders Piaget's stages?",
+  "Sensorimotor → preoperational → concrete operational → formal operational",
+  "Preoperational → sensorimotor → formal operational → concrete operational",
+  "Concrete operational → sensorimotor → preoperational → formal operational",
+  "Sensorimotor → formal operational → preoperational → concrete operational",
+  "The sequence moves from action-based learning to symbolic, concrete-logical, and abstract reasoning."
+);
+
+addQuestion(
+  "Piaget",
+  "A 1-year-old learning primarily through sensation and action is in which Piagetian stage?",
+  "Sensorimotor",
+  "Preoperational",
+  "Concrete operational",
+  "Formal operational",
+  "The sensorimotor stage covers approximately the first two years in Piaget's account."
+);
+
+addQuestion(
+  "Piaget",
+  "Searching for a toy hidden under a blanket demonstrates:",
+  "Object permanence",
+  "Conservation of liquid",
+  "Formal operational reasoning",
+  "Postconventional morality",
+  "Object permanence means understanding that an object continues to exist when not visible."
+);
+
+addQuestion(
+  "Piaget",
+  "A child uses words and pretend play but struggles with conservation tasks. Which stage best fits?",
+  "Preoperational",
+  "Sensorimotor",
+  "Concrete operational",
+  "Formal operational",
+  "Preoperational thought includes symbolic representation but limitations on certain logical operations."
+);
+
+addQuestion(
+  "Piaget",
+  "Assuming another person sees exactly what you see illustrates Piagetian:",
+  "Egocentrism",
+  "Generativity",
+  "Conservation",
+  "Longitudinal reasoning",
+  "Egocentrism concerns difficulty appreciating another perspective; it does not simply mean selfishness."
+);
+
+addQuestion(
+  "Piaget",
+  "A child believes the same juice is now a greater amount because it is in a taller glass. The child has difficulty with:",
+  "Conservation",
+  "Object permanence",
+  "Attachment",
+  "Imprinting",
+  "Conservation means recognizing that quantity remains the same despite a change in appearance."
+);
+
+addQuestion(
+  "Piaget",
+  "An 8-year-old reasons logically about concrete objects and understands conservation. Which stage fits?",
+  "Concrete operational",
+  "Sensorimotor",
+  "Preoperational",
+  "Formal operational by definition",
+  "Concrete operational thinking supports logical operations in concrete situations."
+);
+
+addQuestion(
+  "Piaget",
+  "Systematically considering hypothetical possibilities most strongly fits:",
+  "Formal operational reasoning",
+  "The rooting reflex",
+  "Sensorimotor learning only",
+  "Preoperational egocentrism",
+  "Formal operations emphasize abstract, hypothetical, and systematic reasoning."
+);
+
+addQuestion(
+  "Piaget",
+  "Which statement best represents Piaget's interactionist position?",
+  "Cognitive development reflects both maturation and experience.",
+  "Only genes affect thinking.",
+  "Only reinforcement affects thinking.",
+  "Stages differ only in the number of facts memorized.",
+  "Piaget emphasized interactions between biological development and active experience, with qualitative changes in thinking."
+);
+
+/* Information processing and Vygotsky */
+
+addQuestion(
+  "Information processing and Vygotsky",
+  "An ability becomes more automatic, freeing attention for another task component. This fits the:",
+  "Information-processing approach",
+  "Imprinting account only",
+  "Disengagement theory",
+  "Genetic programming theory of aging",
+  "Information-processing accounts examine attention, memory, strategy, and efficiency changes."
+);
+
+addQuestion(
+  "Information processing and Vygotsky",
+  "A student notices a study strategy failed and selects a better one. This illustrates:",
+  "Metacognition",
+  "Object permanence",
+  "Babinski response",
+  "Menarche",
+  "Metacognition involves knowledge and regulation of one's own thinking."
+);
+
+addQuestion(
+  "Information processing and Vygotsky",
+  "Which emphasis is most closely associated with Vygotsky?",
+  "Culture, language, and social interaction",
+  "A complete absence of social influence",
+  "Only inherited cell-division limits",
+  "Only prenatal reflexes",
+  "Vygotsky's sociocultural approach emphasizes culturally mediated learning and interaction."
+);
+
+addQuestion(
+  "Information processing and Vygotsky",
+  "A child solves a task with useful prompts but cannot yet solve it independently. The task is within the child's:",
+  "Zone of proximal development",
+  "Age of viability",
+  "Disengagement period",
+  "Postconventional stage by definition",
+  "The ZPD is the range between independent performance and performance possible with appropriate support."
+);
+
+/* Adolescence and morality */
+
+addQuestion(
+  "Adolescence and morality",
+  "The biological maturation of reproductive systems occurs during:",
+  "Puberty",
+  "Menopause",
+  "The germinal period",
+  "Integrity",
+  "Puberty is the biological process of sexual maturation; adolescence is a broader transition."
+);
+
+addQuestion(
+  "Adolescence and morality",
+  "A teenager's heightened focus on personal concerns and others' judgments is associated with:",
+  "Adolescent egocentrism",
+  "Conservation",
+  "Generativity",
+  "A newborn reflex",
+  "Adolescent egocentrism involves heightened self-focus; related concepts include imaginary audience and personal fable."
+);
+
+addQuestion(
+  "Adolescence and morality",
+  "A person avoids an action mainly to escape punishment. Which Kohlberg level is emphasized?",
+  "Preconventional",
+  "Conventional",
+  "Postconventional",
+  "Formal operational morality",
+  "Preconventional reasoning emphasizes personal consequences, punishment, reward, or self-interest."
+);
+
+addQuestion(
+  "Adolescence and morality",
+  "A person follows a rule because it is a duty and maintains social order. Which Kohlberg level fits?",
+  "Conventional",
+  "Preconventional",
+  "Postconventional",
+  "Sensorimotor",
+  "Conventional reasoning emphasizes approval, rules, duties, and social order."
+);
+
+addQuestion(
+  "Adolescence and morality",
+  "A person accepts punishment rather than violate a considered principle of human rights. Which level best fits?",
+  "Postconventional",
+  "Preconventional",
+  "Conventional by definition",
+  "Preoperational",
+  "Postconventional reasoning can prioritize ethical principles over a conflicting rule."
+);
+
+addQuestion(
+  "Adolescence and morality",
+  "Which is a major criticism of Kohlberg's theory?",
+  "Its assumptions may not generalize equally across cultures.",
+  "It studies actual behavior without considering reasons.",
+  "It contains no progression in reasoning.",
+  "It explains prenatal organ formation.",
+  "Cultural generality is a major concern. The theory primarily addresses moral reasoning rather than guaranteeing behavior."
+);
+
+addQuestion(
+  "Adolescence and morality",
+  "Which interpretation of withdrawal and appetite loss in an adolescent is most appropriate?",
+  "They can signal distress but do not alone establish a diagnosis or precise risk ranking.",
+  "They prove one specific diagnosis.",
+  "They show that support is unnecessary.",
+  "They are always harmless in every context.",
+  "Changes can merit attention, but a short list of behaviors cannot fully assess an actual person's condition or risk."
+);
+
+/* Adulthood and family */
+
+addQuestion(
+  "Adulthood and family",
+  "A 20-year-old explores majors, relationships, and career possibilities. Which chapter term fits?",
+  "Emerging adulthood",
+  "Neonatal development",
+  "Late adulthood",
+  "The embryonic period",
+  "Emerging adulthood describes a culturally influenced period of exploration often spanning the late teens and twenties."
+);
+
+addQuestion(
+  "Adulthood and family",
+  "The end of menstrual cycles associated with reproductive aging is called:",
+  "Menopause",
+  "Menarche",
+  "Puberty",
+  "Imprinting",
+  "Menopause differs from menarche, which is the first menstrual period."
+);
+
+addQuestion(
+  "Adulthood and family",
+  "Which statement about children's development in different family structures is most accurate?",
+  "Resources, stability, conflict, and supportive relationships matter.",
+  "Household structure determines every outcome.",
+  "All children in one family category develop identically.",
+  "Marital status alone guarantees competence.",
+  "A household label does not determine development; multiple relational and economic conditions matter."
+);
+
+addQuestion(
+  "Adulthood and family",
+  "If a family category has greater economic risk on average, what follows?",
+  "Individual outcomes still vary and are influenced by resources and support.",
+  "Every child in that category will be poorly adjusted.",
+  "The category itself proves a child's future.",
+  "Relationships and community support no longer matter.",
+  "Group-level risk does not determine an individual outcome or justify stereotypes."
+);
+
+/* Aging */
+
+addQuestion(
+  "Aging",
+  "A theory emphasizes built-in biological limits on cell division. Which chapter category fits?",
+  "Genetic programming theories",
+  "Activity theory",
+  "Disengagement theory",
+  "Zone of proximal development",
+  "Genetic programming theories emphasize biological timing and limits in aging."
+);
+
+addQuestion(
+  "Aging",
+  "A theory emphasizes accumulated cellular damage and errors. Which category fits?",
+  "Wear-and-tear theories",
+  "Attachment theory",
+  "Formal operational theory",
+  "Activity theory alone",
+  "Wear-and-tear accounts emphasize accumulating damage and byproducts over time."
+);
+
+addQuestion(
+  "Aging",
+  "Difficulty remembering particular family celebrations most directly concerns:",
+  "Episodic memory",
+  "Semantic memory alone",
+  "A newborn reflex",
+  "Procedural memory alone",
+  "Specific personally experienced events are episodic memories; general facts are semantic."
+);
+
+addQuestion(
+  "Aging",
+  "Which statement about Alzheimer's disease is most accurate?",
+  "It is a progressive brain disease and is not inevitable normal aging.",
+  "It happens to every older adult.",
+  "It is defined by one forgotten name.",
+  "It affects only newborn reflexes.",
+  "Alzheimer's affects memory and other cognitive abilities, but aging alone does not imply the disease."
+);
+
+addQuestion(
+  "Aging",
+  "A historical theory emphasizes withdrawal from roles and social involvement in later life. This is:",
+  "Disengagement theory",
+  "Activity theory",
+  "Piaget's theory",
+  "Kohlberg's theory",
+  "Disengagement theory historically emphasized reduced involvement. It is not a diagnosis or a universal requirement."
+);
+
+addQuestion(
+  "Aging",
+  "An older adult maintains meaningful hobbies, volunteer roles, and social connections. Which theory is most directly illustrated?",
+  "Activity theory",
+  "Disengagement theory",
+  "Wear-and-tear theory",
+  "Imprinting theory",
+  "Activity theory emphasizes meaningful participation and maintained or adapted roles."
+);
+
+/* Life review and end of life */
+
+addQuestion(
+  "Life review and end of life",
+  "Examining and evaluating one's life experiences is called:",
+  "Life review",
+  "Parallel play",
+  "Habituation",
+  "Puberty",
+  "Life review involves reflecting on experiences, relationships, accomplishments, and regrets."
+);
+
+addQuestion(
+  "Life review and end of life",
+  "A terminally ill person says, 'If I could only live to see this family milestone.' Which proposed Kübler-Ross reaction fits?",
+  "Bargaining",
+  "Denial",
+  "Anger",
+  "Conservation",
+  "The conditional wish for more time is the textbook clue for bargaining."
+);
+
+addQuestion(
+  "Life review and end of life",
+  "Which statement about Kübler-Ross's proposed reactions is most accurate?",
+  "They are not a mandatory sequence experienced by everyone.",
+  "Everyone must complete all reactions in order.",
+  "Skipping a reaction proves abnormal grief.",
+  "Acceptance must always occur after a fixed period.",
+  "People's responses to death and loss vary; the model should not be treated as a universal timetable."
+);
+
+/* Flashcards */
+
+const cards = [
+  [
+    "Nature vs. nurture",
+    "Nature = inherited and biological influences. Nurture = environmental experience. Development reflects interaction."
+  ],
+  [
+    "Cross-sectional vs. longitudinal",
+    "Cross-sectional: different ages at one time. Longitudinal: the same people repeatedly over time."
+  ],
+  [
+    "Cohort",
+    "A group sharing a historical period or experience. Cohort differences can be confused with age effects."
+  ],
+  [
+    "DNA, genes, and chromosomes",
+    "Genes are functional segments of DNA; chromosomes contain DNA and genes. A typical zygote has 23 chromosome pairs."
+  ],
+  [
+    "Prenatal sequence",
+    "Germinal → embryonic → fetal. Timing in this guide is generally measured after conception unless stated otherwise."
+  ],
+  [
+    "Teratogen, viability, and preterm",
+    "Teratogen: potentially harmful prenatal exposure. Viability: possible survival outside the uterus. Preterm: before 37 completed gestational weeks."
+  ],
+  [
+    "PKU, Tay-Sachs, and Down syndrome",
+    "PKU: phenylalanine processing. Tay-Sachs: harmful fatty-substance accumulation in nerve cells. Down syndrome: usually extra chromosome 21."
+  ],
+  [
+    "Newborn reflexes and habituation",
+    "Rooting: turn toward cheek touch. Babinski: toes fan. Habituation: response decreases with repetition."
+  ],
+  [
+    "Lorenz, Harlow, and Ainsworth",
+    "Lorenz: imprinting. Harlow: contact comfort. Ainsworth: Strange Situation attachment patterns."
+  ],
+  [
+    "Attachment patterns",
+    "Secure: explore and accept comfort. Avoidant: limited overt contact seeking. Ambivalent: seek and resist. Disorganized: no consistent strategy."
+  ],
+  [
+    "Parenting styles",
+    "Authoritarian: obedience. Authoritative: firm and responsive. Permissive: few limits. Uninvolved: little engagement."
+  ],
+  [
+    "Temperament and resilience",
+    "Temperament: emotional reactivity and regulation. Resilience: relatively positive adaptation despite adversity."
+  ],
+  [
+    "Erikson: early childhood",
+    "Infant: trust. Toddler: autonomy. Preschool: initiative. School age: industry."
+  ],
+  [
+    "Erikson: adolescence through later life",
+    "Adolescence: identity. Young adulthood: intimacy. Middle adulthood: generativity. Later adulthood: integrity."
+  ],
+  [
+    "Piaget's sequence",
+    "Sensorimotor → preoperational → concrete operational → formal operational."
+  ],
+  [
+    "Piaget's key distinctions",
+    "Object permanence: unseen objects exist. Conservation: quantity stays the same despite appearance. Egocentrism: difficulty with another perspective."
+  ],
+  [
+    "Concrete vs. formal operations",
+    "Concrete: logical operations tied to concrete situations. Formal: abstract and hypothetical reasoning."
+  ],
+  [
+    "Metacognition",
+    "Knowledge and regulation of your own thinking, including selecting and evaluating strategies."
+  ],
+  [
+    "Vygotsky, ZPD, and scaffolding",
+    "Culture and interaction shape learning. ZPD: what is possible with support beyond independent performance. Scaffolding: adjustable support."
+  ],
+  [
+    "Kohlberg's levels",
+    "Preconventional: personal consequences. Conventional: approval and social order. Postconventional: rights and principles."
+  ],
+  [
+    "Puberty, emerging adulthood, and menopause",
+    "Puberty: sexual maturation. Emerging adulthood: a culturally influenced period of exploration. Menopause: end of menstrual cycles with reproductive aging."
+  ],
+  [
+    "Biological aging theories",
+    "Genetic programming: biological timing and limits. Wear-and-tear: accumulated damage and errors."
+  ],
+  [
+    "Social aging theories",
+    "Disengagement: historical withdrawal account. Activity: meaningful participation and maintained or adapted roles."
+  ],
+  [
+    "Life review and bargaining",
+    "Life review: evaluating one's life. Bargaining: a conditional wish for more time. Kübler-Ross reactions are not a mandatory sequence."
+  ]
+];
+
+/* Interface behavior */
+
+const get = id => document.getElementById(id);
+
+function makeElement(tag, text, className) {
+  const element = document.createElement(tag);
+
+  if (text !== undefined) {
+    element.textContent = text;
+  }
+
+  if (className) {
+    element.className = className;
+  }
+
+  return element;
+}
+
+function shuffle(items) {
+  const result = [...items];
+
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+
+  return result;
+}
+
+get("questionCount").textContent = questions.length;
+
+cards.forEach(([question, answer]) => {
+  const detail = makeElement("details");
+
+  detail.append(
+    makeElement("summary", question),
+    makeElement("p", answer)
+  );
+
+  get("cardContainer").append(detail);
+});
+
+const topics = [
+  ...new Set(questions.map(question => question[0]))
+];
+
+topics.forEach(topic => {
+  const option = makeElement("option", topic);
+  option.value = topic;
+  get("topic").append(option);
+});
+
+let activeQuestions = [];
+let missedQuestions = [];
+let graded = false;
+
+function updateProgress() {
+  const answered =
+    get("quizForm").querySelectorAll("input:checked").length;
+
+  get("progress").textContent =
+    `${answered} of ${activeQuestions.length} answered.` +
+    (graded ? " Attempt graded." : "");
+}
+
+function startAttempt(pool) {
+  activeQuestions = shuffle(pool).map(question => ({
+    source: question,
+    order: shuffle([0, 1, 2, 3])
+  }));
+
+  missedQuestions = [];
+  graded = false;
+
+  get("questionContainer").replaceChildren();
+  get("results").replaceChildren();
+  get("results").hidden = true;
+  get("retryButton").hidden = true;
+  get("gradeButton").disabled = false;
+
+  activeQuestions.forEach((entry, index) => {
+    const [topic, prompt, options] = entry.source;
+    const fieldset = makeElement("fieldset");
+
+    fieldset.append(
+      makeElement("legend", `${index + 1}. ${prompt}`),
+      makeElement("p", topic, "small")
+    );
+
+    entry.order.forEach((originalIndex, displayedIndex) => {
+      const label = makeElement("label", undefined, "option");
+      const input = document.createElement("input");
+
+      input.type = "radio";
+      input.name = `question-${index}`;
+      input.id = `question-${index}-option-${displayedIndex}`;
+      input.value = String(originalIndex);
+
+      input.addEventListener("change", updateProgress);
+
+      label.append(
+        input,
+        makeElement("span", options[originalIndex])
+      );
+
+      fieldset.append(label);
+    });
+
+    get("questionContainer").append(fieldset);
+  });
+
+  updateProgress();
+}
+
+get("startButton").addEventListener("click", () => {
+  const topic = get("topic").value;
+
+  const pool = topic === "all"
+    ? questions
+    : questions.filter(question => question[0] === topic);
+
+  startAttempt(pool);
+});
+
+get("quizForm").addEventListener("submit", event => {
+  event.preventDefault();
+
+  if (graded) {
+    return;
+  }
+
+  const unanswered = activeQuestions.findIndex((entry, index) =>
+    !get("quizForm").querySelector(
+      `input[name="question-${index}"]:checked`
+    )
+  );
+
+  if (unanswered !== -1) {
+    const answered =
+      get("quizForm").querySelectorAll("input:checked").length;
+
+    get("progress").textContent =
+      `Please answer question ${unanswered + 1} before grading. ` +
+      `${answered} of ${activeQuestions.length} answered.`;
+
+    get("quizForm").querySelector(
+      `input[name="question-${unanswered}"]`
+    ).focus();
+
+    return;
+  }
+
+  graded = true;
+
+  let correct = 0;
+  const topicResults = new Map();
+
+  activeQuestions.forEach((entry, index) => {
+    const [
+      topic,
+      prompt,
+      options,
+      answer,
+      explanation
+    ] = entry.source;
+
+    const fieldset =
+      get("questionContainer").children[index];
+
+    const selected = Number(
+      fieldset.querySelector("input:checked").value
+    );
+
+    const isCorrect = selected === answer;
+
+    if (isCorrect) {
+      correct++;
+    } else {
+      missedQuestions.push(entry.source);
+    }
+
+    if (!topicResults.has(topic)) {
+      topicResults.set(topic, {
+        correct:0,
+        total:0
+      });
+    }
+
+    const topicScore = topicResults.get(topic);
+    topicScore.total++;
+
+    if (isCorrect) {
+      topicScore.correct++;
+    }
+
+    fieldset.querySelectorAll("input").forEach(input => {
+      input.disabled = true;
+
+      if (Number(input.value) === answer) {
+        input.parentElement.classList.add("correct-choice");
+      } else if (input.checked) {
+        input.parentElement.classList.add("incorrect-choice");
+      }
+    });
+
+    fieldset.append(
+      makeElement(
+        "div",
+        `${isCorrect ? "Correct." : "Review this concept."} ` +
+        `Answer: ${options[answer]}. ${explanation}`,
+        isCorrect ? "feedback" : "feedback incorrect"
+      )
+    );
+  });
+
+  const percentage = Math.round(
+    correct / activeQuestions.length * 100
+  );
+
+  const results = get("results");
+
+  results.append(
+    makeElement(
+      "h3",
+      `${correct} / ${activeQuestions.length} correct • ${percentage}%`
+    ),
+    makeElement(
+      "p",
+      missedQuestions.length
+        ? "Review the explanations and matching guide sections. Explain each correction aloud before retrying."
+        : "Strong work on this attempt. Explain the concepts without notes and revisit them tomorrow."
+    )
+  );
+
+  topicResults.forEach((score, topic) => {
+    const row = makeElement("div", undefined, "topic-score");
+
+    row.append(
+      makeElement("span", topic),
+      makeElement(
+        "strong",
+        `${score.correct}/${score.total} ` +
+        `(${Math.round(score.correct / score.total * 100)}%)`
+      )
+    );
+
+    results.append(row);
+  });
+
+  results.hidden = false;
+  get("gradeButton").disabled = true;
+  get("retryButton").hidden =
+    missedQuestions.length === 0;
+
+  updateProgress();
+  results.focus();
+});
+
+get("retryButton").addEventListener("click", () => {
+  const retryPool = [...missedQuestions];
+
+  if (retryPool.length === 0) {
+    return;
+  }
+
+  startAttempt(retryPool);
+
+  get("progress").scrollIntoView({
+    block:"center"
+  });
+});
+
+get("printButton").addEventListener("click", () => {
+  window.print();
+});
+
+startAttempt(questions);
+</script>
+
+</body>
+</html>
